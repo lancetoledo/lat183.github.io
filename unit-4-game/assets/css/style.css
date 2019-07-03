@@ -1,0 +1,85 @@
+body{
+	background: url("../images/cave\ wallpaper.png");
+	background-size: 120%;
+
+}
+
+header{
+    font-family: 'Faster One', cursive;
+	font-size: 300%;
+	color: white;
+    background:  #F0882E;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    border: 10px solid #A51A55;
+    margin: 0px;
+	text-align: center;
+	
+}
+
+
+.Rules{
+	font-family: 'Roboto', sans-serif ;
+	font-size: 120%;
+    background:  #F4D5AD;
+    border: 10px solid #D0436C;
+    padding-top: 30px;
+    padding-right: 5px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    text-align: center;
+	margin-top: 30px;
+}
+
+
+.container{
+	font-family: 'Roboto', sans-serif ;
+	font-size: 110%;
+    background:  #CBE9F6;
+    border: 10px solid #000000;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    text-align: center;
+    margin-top:30px
+}
+
+.boxscore{
+	font-family: 'Roboto', sans-serif ;
+	font-size: 200%;
+    background:  #CEFDFE;
+    border: 10px solid #606060;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    text-align: center;
+	margin-top:0px;
+	float: right;
+}
+
+
+
+.crystals{
+	display: flex;
+	align-items: center;
+	float: left;
+
+}
+
+
+.crystal{
+	border: 1px solid green;
+	height:100px;
+	width:100px;
+	align-items: center;
+}
+
+
+img{
+	height:
+	width: 50px;
+}

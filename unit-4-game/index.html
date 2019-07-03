@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Crystal Collector</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Crystal Collector!</h1>
+    </header>
+
+    <!-- Rules Area -->
+    <div class= "Rules">
+        <p>You will be given a random number at the start of the game.</p>
+        <br>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <br>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+        <br>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <br>
+        <p>Each time when the game starts, the game will change the value of each crystal</p>
+    </div>
+
+    <!-- Row 3 -->
+    <div class= "container">
+        <!-- Left -->
+        <div class= "answer">
+          <p id="answer">Goal: </p>
+          <br>
+        </div>
+        <!-- Right -->
+        <div class="winlose">
+            <p id="win">Wins:</p>
+            <br>
+            <p id="lose">Loses:</p>
+        </div>
+    </div>
+
+    <!-- TheCrystals -->
+    <div class= "crystals">
+     
+         
+        
+    </div>
+
+    <!-- Your Total Score -->
+    <div class="boxscore">
+    <div class= "computersnumber">
+    <p>Your Total Score is:</p>
+    </div>
+
+    <div class= "scoredisplay">
+    <p id="crystaltotal"></p>
+    </div>
+    </div>
+
+
+
+
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+
+
+</body>
+</html>
