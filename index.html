@@ -4,67 +4,187 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bootstrap Portfolio</title>
+    <title>Lance Toledo</title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     
 
 </head>
 <body>
+<div id="top">
 
+</div>
 <!--Start Nav-->
-<header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Lance Toledo</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+<header class="masthead">
+    <div class="row" id="navSection">
+      <div class="col-lg-12">
+      <nav class="navbar nav-center fixed-top justify-content-end">
+        <ul class = "nav nav-bar">
+            <li class = "nav-item">
+              <a class="nav-link active" href="#top"><strong class="navBorder">Home</strong></a>
+            </li>
+          <li class = "nav-item">
+              <a class="nav-link active" href="#aboutSection"><strong class="navBorder">About</strong></a>
+          </li>
+          <li class = "nav-item">
+              <a class="nav-link" href="#portfolioSection"><strong class="navBorder">Portfolio</strong></a>
+          </li>
+          <li class = "nav-item">
+              <a class="nav-link" href="#contactSection"><strong class="navBorder">Contact</strong></a>
+          </li>
+        </ul>
       </nav>
     </div>
-  </header>
-<br><br><br><br>
+    </div>
 
- <div class= "container">
-     <div class= "row">
-         <div class="col-md-8 main-section">
-             <h1>About Me
-             </h1>
-             <div class="row">
-                 <div class="col-md-3">
-                     <img src="assets/images/lance1.jpg" alt="placeholder" width="100%">
-                 </div>
-                 <div class="col-md-9">
-                     <p>Lance is currently a rising senior at Rutger-Newark University and decided to use the summer to take the Rutgers Coding Bootcamp!</p>
-                     
-                       <p>Lance is obsessed with learning which has lead him to be interested in coding. It has also lead him to an array of hobbies such as, playing guitar, photography, dancing and editing YouTube videos.</p>
-                 </div>
-             </div>   
-         </div>
-         <div class="col-md-4 sidebar">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Connect With Me!</h5>
-                  <a href="https://github.com/lat183" class="card-link">Github</a>
-                  <a href="https://www.linkedin.com/in/lance-toledo/" class="card-link">Linkedin</a>
-                </div>
-              </div>
-             </div>
-         </div>
-     </div>
- </div>
+    <div class="row" id="photoRow">
+        <div class="col-lg-12 photoDiv">
+            <img class="profilePic" src="assets/images/lance1.jpg" alt="Lance">
+        </div>
+    </div>
+      <br><br>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="introDiv">
+              <h1 class="name"><strong>Lance Toledo</strong></h1>
+              <h1 class="profession">Rutgers Bootcamp Student</h1>
+              <br>
+              <h1 class="skills">HTML</p>
+              <h1 class="skills">CSS</p>
+              <h1 class="skills">JavaScript</p>
+              <h1 class="skills">jQuery</p>
+              <h1 class="skills">node.js</p>
+            </div>
+          </div>
+      </div>
+  </header>
+
+  
+<section class="aboutSection" id="aboutSection">
+  <div class="container">
+      <h1><strong>About me</strong></h1>
+      <br><br>
+
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-lg-8">
+            <p class="aboutParagraph">
+              I am a senior in Rutgers Newark on track to graduate with a Bachelor's degree in Psychology. 
+              I always had a love for coding and figuring out how things worked. 
+            <br><br>
+            <p class="aboutParagraph">
+                Eventually I saw an oppurtunity by Rutgers to enroll in 
+                a coding bootcamp and I jumped at the oppurtunity.
+            </p>
+            <br>
+            <p class="aboutParagraph">
+             I am someone who loves learning which why I have multiple hobbies such as playing two instruments, creating and editing videos
+             and photography. So I can't wait to learn everything I can in this Bootcamp. 
+            </p>
+           <br>
+            <p class="aboutParagraph">
+             Checkout some of my work below!
+            </p>
+      </div>
+      <div class="col-md-2">
+      </div>
+  </div>
+</section>
+
+
+<section class="portfolio bg-white" id="portfolioSection">
+  <div class="container">
+    <h1><strong>Portfolio</strong></h1>
+
+    <div class="thumbnailWrapper">
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="imgContainer">
+              <img class="img-fluid imgMod bandana" src="assets/images/Moodi.jpg" alt="Project 1">
+              <a class="projectName" href="10sslesss.github.io/Project-Moodi"><p>Moodi</p></a>
+            </div>
+      </div>
+
+        <div class="col-md-3">
+          <div class="imgContainer">
+            <img class="img-fluid imgMod" src="assets/images/GIFTASTIC.jpg" alt="Gif generator">
+            <a class="projectName" href="https://lat183.github.io/GIFTASTIC/"><p>Gif Generator</p></a>
+            </div>
+        </div>
+
+
+        <div class="col-md-3">
+          <div class="imgContainer">
+            <img class="img-fluid imgMod" src="assets/images/crystalcollector.jpg" alt="crystal collector">
+            <a class="projectName" href="https://lat183.github.io/unit-4-game"><p>Crystal Collector</p></a>
+            </div>
+        </div>
+    
+        <div class="col-md-3">
+            <div class="imgContainer">
+              <img class="img-fluid imgMod" src="assets/images/PsychicGame-1.jpg" alt="Psychic Game">
+              <a class="projectName" href="https://lat183.github.io/Psychic-Game"><p>Psychic Game</p></a>
+            </div>
+
+      </div>
+    
+    
+    </div>
+  </div>
+</section>
+
+<section class="contact bg-info" id="contactSection">
+  <div class="container">
+    <h1><strong>Contact me</strong></h1>
+  
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 id="my-email">lanceadrian13@gmail.com</h2>
+        <br>
+          <button onclick="copyEmail('#my-email')">copy email</button>
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+      <div class="col-lg-12">
+
+          <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a href="#" class="fa fa-github" id="social"></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="fa fa-linkedin" id="social">
+                </a>
+
+            </ul>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+  
+<footer class="footer" id="footerbar">
+    Copyright &copy; 2019 Lance Toledo
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/logic.js"></script>
+
+
+
 
 
  
-</div>
 
-<div class="container-fluid footer">
-	<div class="row">
-		<p>&copy; Copyright 2018 Lance Toledo</p>
-	</div>
-</div>
+
+
 
 
 
