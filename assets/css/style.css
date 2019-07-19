@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+
+
+
 body {
   font-family: 'Cardo', serif;
  }
@@ -35,7 +38,7 @@ margin-top: 100px;
 
 
 .profilePic {
-  width: 35%;
+  width: 25%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -51,18 +54,31 @@ margin-top: 100px;
 }
 
 .introDiv {
-  padding-left: 3%;
   padding-bottom: 5%;
   text-align: center;
   font-weight: bold;
+  
 }
+
+.name{
+  font-size: 30px;
+}
+
+.profession{
+  font-size: 30px;
+}
+
+.skills{
+  font-size: 30px;
+}
+
 
 .aboutSection{
  text-align: center;
  background-color: skyblue;
  color: black;
- padding-bottom: 4%;
- padding-top: 1%;
+ padding-bottom: 10%;
+ padding-top: 5%;
 }
 
 .aboutParagraph {
