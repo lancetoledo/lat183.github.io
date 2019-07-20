@@ -1,0 +1,19 @@
+body{
+    background-image: url(../images/Squadron\ Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+}
+
+.text-muted{
+	color: white;
+}
+.last-seconds{
+  color: red;
+}
+.option{
+  margin: 15px;
+}
