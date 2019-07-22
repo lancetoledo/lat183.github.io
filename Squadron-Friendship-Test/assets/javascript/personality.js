@@ -315,12 +315,12 @@ var cTotal = 0;
 var nTotal = 0;
 var oTotal = 0;
 
-var lance ="../Squadron Friendship Test/assets/images/Lance.gif";
-var alex ="../Squadron Friendship Test/assets/images/Alex.gif";
-var anna ="../Squadron Friendship Test/assets/images/Anna.gif";
-var jeff ="../Squadron Friendship Test/assets/images/Jeff.gif";
-var fabio ="../Squadron Friendship Test/assets/images/Fabio.gif";
-var drew ="../Squadron Friendship Test/assets/images/Drew.gif";
+var lance ="assets/images/Lance.gif";
+var alex ="assets/images/Alex.gif";
+var anna ="assets/images/Anna.gif";
+var jeff ="assets/images/Jeff.gif";
+var fabio ="assets/images/Fabio.gif";
+var drew ="assets/images/Drew.gif";
 
 var squadronImg ={
     lance,
@@ -373,7 +373,7 @@ $("#submit-btn").on("click", function (event) {
       
         
         var gifImage = $("<img>");
-        gifImage.attr("src", "../Squadron Friendship Test/assets/images/Anna.gif");
+        gifImage.attr("src", "assets/images/Anna.gif");
         gifImage.attr("class", "giffyResult")
         gifImage.attr("alt", "yourFriend");
         $("#resultsP").append(gifImage);
@@ -392,7 +392,7 @@ $("#submit-btn").on("click", function (event) {
     //results for Extraversion trait as highest weight
     else if (eTotal === sortedResults[4]) {
         var gifImage = $("<img>");
-        gifImage.attr("src", "../Squadron Friendship Test/assets/images/Jeff.gif");
+        gifImage.attr("src", "assets/images/Jeff.gif");
         gifImage.attr("class", "giffyResult")
         gifImage.attr("alt", "yourFriend");
         $("#resultsP").append(gifImage);
@@ -410,7 +410,7 @@ $("#submit-btn").on("click", function (event) {
     //results for Consciensciousness trait as highest weight
     else if (cTotal === sortedResults[4]) {
         var gifImage = $("<img>");
-        gifImage.attr("src", "../Squadron Friendship Test/assets/images/Lance.gif");
+        gifImage.attr("src", "assets/images/Lance.gif");
         gifImage.attr("class", "giffyResult")
         gifImage.attr("alt", "yourFriend");
         $("#resultsP").append(gifImage);
@@ -429,7 +429,7 @@ $("#submit-btn").on("click", function (event) {
     //results for Openness to New Experience trait as highest weight
     else if (oTotal === sortedResults[4]) {
         var gifImage = $("<img>");
-        gifImage.attr("src", "../Squadron Friendship Test/assets/images/Alex.gif");
+        gifImage.attr("src", "assets/images/Alex.gif");
         gifImage.attr("class", "giffyResult")
         gifImage.attr("alt", "yourFriend");
         $("#resultsP").append(gifImage);
@@ -448,7 +448,7 @@ $("#submit-btn").on("click", function (event) {
     //results for Agreeableness trait as highest weight
     else if (aTotal === sortedResults[4]) {
         var gifImage = $("<img>");
-        gifImage.attr("src", "../Squadron Friendship Test/assets/images/Drew.gif");
+        gifImage.attr("src", "assets/images/Drew.gif");
         gifImage.attr("class", "giffyResult")
         gifImage.attr("alt", "yourFriend");
         $("#resultsP").append(gifImage);
@@ -468,7 +468,7 @@ $("#submit-btn").on("click", function (event) {
     //results for Neuroticism trait as highest weight
     else if (nTotal === sortedResults[4]) {
         var gifImage = $("<img>");
-        gifImage.attr("src", "../Squadron Friendship Test/assets/images/Fabio.gif");
+        gifImage.attr("src", "assets/images/Fabio.gif");
         gifImage.attr("class", "giffyResult")
         gifImage.attr("alt", "yourFriend");
         $("#resultsP").append(gifImage);
